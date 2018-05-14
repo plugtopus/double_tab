@@ -1,0 +1,24 @@
+{
+  "author": "Plugtopus Agency",
+  "background": {
+    "scripts": ["bg.js"]
+  },
+  "default_locale": "ru",
+  "description": "__MSG_desc__",
+  "homepage_url": "https://plugtopus.agency",
+  "name": "__MSG_name__",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon/icon.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+U"
+      }
+    }
+  },
+  "update_url": "http://clients2.google.com/service/update2/crx",
+  "minimum_chrome_version": "25",
+  "version": "14.05.18.1"
+}
